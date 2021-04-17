@@ -2,6 +2,9 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 .status-bar__column:first-child span {
   margin-right: 5px;
