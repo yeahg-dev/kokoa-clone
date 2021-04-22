@@ -5,6 +5,7 @@
   padding: var(--horizontal-space);
   margin-top: 25px;
   margin-bottom: 15px;
+  background-color: white;
 }
 .screen-header__title {
   font-size: 32px;
@@ -12,4 +13,16 @@
 }
 .screen-header__icons span {
   margin-left: 25px;
+}
+.screen-header span:last-child {
+  position: relative;
+}
+.cog__dot {
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  bottom: 18px;
 }
