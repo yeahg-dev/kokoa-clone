@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   padding: var(--horizontal-space);
-  padding-top: 38px;
+  padding-top: 20px;
   margin-top: 25px;
   margin-bottom: 15px;
 }
@@ -11,14 +11,23 @@
   font-size: 25px;
   font-weight: 600;
 }
-.alt-header__column > span:last-child {
+.alt-header__column span:last-child {
   margin-left: 15px;
 }
+.alt-header__column {
+  width: 33%;
+}
+
 .alt-header__column:first-child {
   margin-right: auto;
   font-size: 13px;
 }
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
 .alt-header__column:last-child {
   margin-left: auto;
   font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
 }
