@@ -11,12 +11,17 @@
   display: flex;
   align-items: center;
 }
+.chats .user-component:hover .user-component__avatar {
+  width: 70px;
+  height: 70px;
+}
 .user-component__avatar {
   width: 60px;
   height: 60px;
   border-radius: 17px;
   margin-right: 20px;
   object-fit: cover;
+  transition: all 0.5s ease-in-out;
 }
 .user-component__titles {
   font-weight: 600;
